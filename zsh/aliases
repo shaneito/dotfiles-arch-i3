@@ -1,0 +1,18 @@
+alias ll='exa -lah --git'
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
+alias gs='git status'
+
+
+alias ea="nvim ~/.config/zsh/aliases"
+alias ee="nvim ~/.config/zsh/.zshenv"
+alias et="nvim ~/.config/tmux/tmux.conf"
+alias ev="nvim ~/.config/nvim/init.vim"
+alias ez="nvim ~/.config/zsh/.zshrc"
+
+alias sz="source ~/.config/zsh/.zshrc"
+alias st="tmux kill-server && tmux"
+
+alias d='dirs -v'
+for index ({1..9}) alias "$index"="cd +${index}"; unset index
