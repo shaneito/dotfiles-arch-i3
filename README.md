@@ -1,9 +1,12 @@
 # Mouseless Dev Dotfiles
 Based on Matthieu Cneude's Building your Mouseless Development Book
-Using Arch Linux with i3, X11 and urxvt
 
 
 # Current Stage
-Fully working system as at end of Part II. This will form the starting
-point of future development and experimentation.
+This takes the settings as at the end of Part II and adapts it for
+my Ubuntu Desktop
 
+Removes
+ - X11
+ - Dunst
+ - i3
